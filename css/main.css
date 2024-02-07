@@ -2371,7 +2371,23 @@ header .logo {
 	background: #FF0077;
 	color: #FFFFFF;
 }
-#contact button.submitform:hover, #contact button.submitform:focus {
+#contact a.submitform11 {
+    font-size: 1.5rem;
+    display: block;
+    letter-spacing: .2rem;
+    height: 6.6rem;
+    line-height: 6.6rem;
+    padding: 0 3rem;
+    margin-top: 4.8rem;
+    width: 100%;
+    background: #FF0077;
+    color: #FFFFFF;
+    text-decoration: none; /* Eliminar subrayado del enlace */
+	font-family: "poppins-bold", sans-serif;
+	text-align: center;
+}
+
+#contact button.submitform:hover, a.submitform11:hover, #contact button.submitform:focus {
 	background: #cc005f;
 }
 #message-warning, #message-success {
